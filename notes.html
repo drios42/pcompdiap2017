@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Physical Computing Syllabus </title>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'> -->
+   <!-- Latest compiled and minified CSS -->
+
+
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <!-- Custom styles for this template -->
+   
+    
+    <!-- <link href="mycss/grid.css" rel="stylesheet"> -->
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.0/p5.min.js" type="text/javascript"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.0/addons/p5.dom.min.js" type="text/javascript"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.0/addons/p5.sound.min.js" type="text/javascript"></script>
+
+<!-- 
+ 
+    <script src = "libraries/p5.js" type="text/javascript"></script>
+    <script src = "libraries/p5.dom.js" type="text/javascript"></script>
+    <script src = "libraries/p5.sound.js" type="text/javascript"></script>
+
+-->
+
+<!--    <script src="js/sketch.js" type="text/javascript"></script>-->
+<!--    <link href="css/mycss.css" rel="stylesheet">-->
+        <link href="css/starter-template.css" rel="stylesheet">
+<!--    <style> body {padding: 50px; margin: 0;} canvas {vertical-align: top;} </style>-->
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    </head>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////-->
+<!--HEADER AND NAVIGATION-->
+<!--//////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <body>
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="index.html">
+                        <br>
+                        Art B2010<br>
+                        Medium 
+                        Workshop:<br>
+                        Physical Computing 
+                    </a>
+                </li>
+                <li class="side"><a href="index.html"> Syllabus</a></li>
+                    <li class="side"><a href="labs.html">Labs</a></li>
+                    <li class="side"><a href="materials.html">Resources</a></li>
+                    <li class="side"><a href="students.html">Blogs</a></li>
+                    <li class="side"><a href="notes.html">Class Notes</a></li>
+                    <li class="side"><a href="course.html">Overview</a></li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">  
+                
+                <div class="container" id="class1">
+                    <div class="page-header"><h3>Class 1: Electricty and First Circuit</h3></div>
+                
+                    <ul><h4><strong>Circuit Rules of thumb:</strong></h4>
+                    <ul>
+                        <li>Do not: connect <strong>+</strong> and <strong>-</strong> terminals directly to each other (i.e. Short circut)</li>
+                        <li>Do: connect components that use all your voltage (resistors, LEDs, Motors, etc)</li>
+                        
+                        <li>Circuits must be closed in order for electricity to flow </li>
+                        <li>Switches control the opening and closing of your circuit</li>
+                        <li>Switches are just conductive materials that can either open or close</li>
+                        
+<!--
+                        <li> How the computer sees you</li>
+                        <br>
+                        <img src="https://lh4.googleusercontent.com/PiTe7qDN0e_BSsoBVNZhJUroHZlNxV_Yk1X1IWo21VBQkNOk1PjTXrVENK-0pVvek0EisHz1j2PXfEmCAuZqoLzIxksr6u5vzQKK8QxfHTVbK5pmJwc">
+                        <li>Anatomy of a Breadboard</li>
+                        <br>       
+                        <a href="imgs/breadboard2.jpg"><img src="imgs/breadboard2.jpg" width="50%" height="50%"></a>
+-->
+
+                        <li>VIDEO: <a href="https://www.youtube.com/watch?v=w0c3t0fJhXU">Explanation of Breadboards</a></li>
+                        <li><a href="https://learn.sparkfun.com/tutorials/how-to-read-a-schematic">Sparkfun Reading schematics page</a></li>
+                        <li><a href="https://itp.nyu.edu/physcomp/Labs/Components"> ITP Lab: </a>Components</li>
+                        <li><a href="https://itp.nyu.edu/physcomp/Labs/Breadboard"> ITP Lab: </a>Setting up a breadboard</li>
+                        <li><a href="https://itp.nyu.edu/physcomp/Labs/Electronics"> ITP Lab: </a>Using a multimeter (use Arduino to power the board, ignore the Voltage regulator)</li>
+                        <li>VIDEO: <a href="https://www.youtube.com/watch?v=rPGoMbVSUu8"> Using a multimeter</a></li>
+                        <li><a href="https://itp.nyu.edu/physcomp/Labs/Soldering"> ITP Lab: </a>Soldering</li>
+                        
+                    </ul>
+                        
+                        <strong> <h4>Terms:</h4></strong>
+                        <ul>
+                            <li>Conductor </li>
+                            <li>Insulator</li>
+                            <li>Voltage</li>
+                        </ul>
+
+                <li><strong>Your first Circuit:</strong></li>
+                    <ul>
+                        <li><a href="https://itp.nyu.edu/physcomp/Labs/Components"> ITP Lab: </a>Components</li>
+                        <li><a href="https://itp.nyu.edu/physcomp/Labs/Breadboard"> ITP Lab: </a>Setting up a breadboard</li>
+                        <li><a href="https://itp.nyu.edu/physcomp/Labs/Electronics"> ITP Lab: </a>Using a multimeter (use Arduino to power the board, ignore the Voltage regulator)</li>
+                        <li><a href="https://itp.nyu.edu/physcomp/Labs/Soldering"> ITP Lab: </a>Soldering</li>
+                        <li><a href="https://github.com/drios42/pcompdiap2016/blob/gh-pages/readings/physcompIgoeOsullivan.pdf ">Physical Computing: Introduction, Ch1, Ch2, Ch3</a></li>
+                    </ul>
+                    </ul>
+            </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+ <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+    </body>
+</html>

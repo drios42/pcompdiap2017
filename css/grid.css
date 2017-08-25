@@ -1,0 +1,48 @@
+h4 {
+  margin-top: 10px;
+}
+.row {
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /*background-color: #eee;*/
+  /*background-color: rgba(222,222,222,.15);*/
+  
+background-color:#FFF;
+background-image: linear-gradient(white 2px, transparent 2px),
+linear-gradient(90deg, white 2px, transparent 2px),
+linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+
+
+
+/*  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);*/
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.page-header{
+  padding-top: 15px;
+  /*background-color: #eee;*/
+ /* background-color: rgba(222,222,222,.15);*/
+}
+
+.marker{
+  background-color: #CCC;
+}
+
