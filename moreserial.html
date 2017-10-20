@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Physical Computing Labs </title>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'> -->
+    <!-- Latest compiled and minified CSS -->
+
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Custom styles for this template -->
+
+
+    <!-- <link href="mycss/grid.css" rel="stylesheet"> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.0/p5.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.0/addons/p5.dom.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.0/addons/p5.sound.min.js" type="text/javascript"></script>
+
+    <!-- 
+ 
+    <script src = "libraries/p5.js" type="text/javascript"></script>
+    <script src = "libraries/p5.dom.js" type="text/javascript"></script>
+    <script src = "libraries/p5.sound.js" type="text/javascript"></script>
+
+-->
+
+    <!--    <script src="js/sketch.js" type="text/javascript"></script>-->
+    <!--    <link href="css/mycss.css" rel="stylesheet">-->
+    <link href="css/starter-template.css" rel="stylesheet">
+    <!--    <style> body {padding: 50px; margin: 0;} canvas {vertical-align: top;} </style>-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+</head>
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////-->
+<!--HEADER AND NAVIGATION-->
+<!--//////////////////////////////////////////////////////////////////////////////////////////-->
+
+<body>
+    <div id="wrapper" class="toggled">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="index.html">
+                        <br>
+                        Art B2010<br>
+                        Medium 
+                        Workshop:<br>
+                        Physical Computing 
+                    </a>
+                </li>
+                <li class="side"><a href="index.html"> Syllabus</a></li>
+                <li class="side"><a href="labs.html">Labs</a></li>
+                <li class="side"><a href="materials.html">Resources</a></li>
+                <li class="side"><a href="students.html">Blogs</a></li>
+                <li class="side"><a href="notes.html">Class Notes</a></li>
+                <!--                    <li><a href="final.html">Final</a></li>   -->
+                <li class="side"><a href="course.html">Overview</a></li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+
+
+        <!-- CONTENT -->
+
+
+        <!--////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <!-- LABS & ASSIGNMENTS  LABS & ASSIGNMENTS  LABS & ASSIGNMENTS  LABS & ASSIGNMENTS  LABS & ASSIGNMENTS -->
+        <!--////////////////////////////////////////////////////////////////////////////////////////////////////-->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+
+                <div class="container" id="labs">
+                    <span id="schedule" class="anchor"></span>
+                    <div class="page-header">
+                        <h2 class="noselect">Alternative Windows Serial Setup</h2>
+                    </div>
+
+                    <div class="container-fluid" id="labs-detailed">
+                        <div class="container" id="lab1">
+                            <h3>If you have trouble installing the p5 SerialControl program with windows take the following steps:</h3>
+
+                            <ul><strong></strong></ul>
+                            <ul>Download and install <a href="https://nodejs.org/en/blog/release/v0.12.7"> this version</a> of node.js </ul>
+
+                            <ul>Once it is installed, open up a command prompt and type: <code>npm install p5.serialserver</code></ul>
+
+                            <ul>Once that is done, you now have to navigate to the directory where it was installed and start the serial server:
+                                <li><code> cd node_modules cd p5.serialserver</code></li>
+                                <li> <code>node startserver.js </code></li>
+                            </ul>
+                            <ul>Keep command prompt running.</ul>
+
+                            <ul>Try one of the examples from the synthesis class or one of the examples here: https://github.com/vanevery/p5.serialport/tree/master/examples </ul>
+
+                            <ul> In the sketches for p5 make sure to change the port to whatever your port is in the Arduino IDE (I.E. COM3). That line is serial.open("NAMEOFYOURPORT"); </ul>
+
+                            <ul>Test and make sure it works! </ul>
+
+                            <ul>More here: https://github.com/vanevery/p5.serialport/wiki</ul>
+
+                            <li><strong>Resources:</strong></li>
+                           <ul>
+                        <li><a href="https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-input-to-the-p5-js-ide/">ITP Lab Serial: Input Arduino to p5</a></li>
+                        <li><a href="https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-output-from-p5-js/">ITP Lab Serial: Output p5 to Arduino</a></li>
+                        <li><a href="https://itp.nyu.edu/physcomp/labs/labs-serial-communication/two-way-duplex-serial-communication-using-p5js/">ITP Lab Serial: Two way duplex communication</a></li>
+                                <li><a href="https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-communication-with-node-js/">ITP Lab Serial: Serial Communication with Nodejs</a></li>
+                       
+                    </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+        <footer class="footer">
+            <div class="container">Art B2011 | Fall 2016, DIAP at CCNY | David Rios | Email: riosriosriosrios (_at_) gmail (_dot_) com | Office Hours: TH, F by appointment
+            </div>
+        </footer>
+-->
+
+    <!-- Bootstrap core JavaScript
+            ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="js/app.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+
+
+</body>
+
+</html>
